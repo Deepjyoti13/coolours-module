@@ -1,14 +1,15 @@
-#designed by alex hawking
+# designed by alex hawking
 
-#usage: print(color(style, foreground color, background color) + 'your text')
+# usage: print(color(style, textground color, background color) + 'your text')
 
-def color(style, fore, bg):
+
+def color(style, text, bg):
 
     a = "\033[0;"
     b = "39;"
     c = "49m"
 
-    #styles
+    # styles
     if style == "none":
         a = "\033[0;"
     if style == "bold":
@@ -18,29 +19,29 @@ def color(style, fore, bg):
     if style == "blink":
         a = "\033[5;"
 
-    #standard colors
+    # standard colors
 
-    #fore
-    if fore == "none":
+    # text
+    if text == "none":
         b = "39;"
-    if fore == "black":
+    if text == "black":
         b = "30;"
-    if fore == "red":
+    if text == "red":
         b = "31;"
-    if fore == "green":
+    if text == "green":
         b = "32;"
-    if fore == "yellow":
+    if text == "yellow":
         b = "33;"
-    if fore == "blue":
+    if text == "blue":
         b = "34;"
-    if fore == "purple":
+    if text == "purple":
         b = "35;"
-    if fore == "cyan":
+    if text == "cyan":
         b = "36;"
-    if fore == "white":
+    if text == "white":
         b = "37;"
 
-    #background
+    # background
     if bg == "none":
         c = "48m"
     if bg == "black":
@@ -60,26 +61,26 @@ def color(style, fore, bg):
     if bg == "white":
         c = "47m"
 
-    #bright colors
+    # bright colors
 
-    if fore == "brightblack":
+    if text == "brightblack":
         b = "90;"
-    if fore == "brightred":
+    if text == "brightred":
         b = "91;"
-    if fore == "brightgreen":
+    if text == "brightgreen":
         b = "92;"
-    if fore == "brightyellow":
+    if text == "brightyellow":
         b = "93;"
-    if fore == "brightblue":
+    if text == "brightblue":
         b = "94;"
-    if fore == "brightpurple":
+    if text == "brightpurple":
         b = "95;"
-    if fore == "brightcyan":
+    if text == "brightcyan":
         b = "96;"
-    if fore == "brightwhite":
+    if text == "brightwhite":
         b = "97;"
 
-    #background
+    # background
 
     if bg == "brightblack":
         c = "100m"
@@ -98,11 +99,8 @@ def color(style, fore, bg):
     if bg == "brightwhite":
         c = "47m"
 
-
-
-    #finish
+    # finish
     return(a + b + c)
 
 
 default = "\033[0;39;49m"
-
