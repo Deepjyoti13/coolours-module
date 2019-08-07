@@ -12,6 +12,18 @@ You can install using `curl` by copy and pasting:
 
 # Usage
 
+> ## Importing
+
+Import coolors using:
+
+    from coolors import *
+
+You can import with
+
+    import coolors
+
+But that requires you to use `print(coolors.color('style', 'textcolor', 'backgroundcolor'))`, so I think it is easier to use the first method.
+
 > ## Colors
 
 You use coolors within the `print` function as shown below:
