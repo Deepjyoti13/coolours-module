@@ -8,7 +8,7 @@ Due to issues with SSL Certificates I have been unable to add this to pip.
 
 You can install using `curl` by copy and pasting:
     
-    cd ~/Library/Python/3.7/lib/python/site-packages/ && { curl -O https://raw.githubusercontent.com/Handmade-Studios/coolors-module/master/coolors.py ; cd -; }
+    cd ~/Library/Python/3.7/lib/python/site-packages/ && { curl -O https://raw.githubusercontent.com/Handmade-Studios/coolors-module/master/coolors/coolors.py ; cd -; }
 
 # Usage
 
