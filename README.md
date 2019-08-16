@@ -19,6 +19,8 @@ You can install using `curl` by copy and pasting:
 >If you installed with pip:
     
     from coolours.coolours import (
+    
+>Else
 
 Import coolors using:
 
