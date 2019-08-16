@@ -2,6 +2,26 @@
 ### A Python Module To Make Text Colouring Easy
 #### _Made By Alex Hawking_
 
+# Installation
+
+> ## With Pip
+
+Install with:
+
+    pip install coolours
+
+or
+
+    pip install coolours
+
+> ## With wget
+
+_Wget must be installed_
+
+    cd ~/Library/Python/3.7/lib/python/site-packages && wget https://raw.githubusercontent.com/Handmade-Studios/coolours-module/master/coolours/coolours.py && cd ~
+
+Probably easier to copy and paste that ^
+
 
 # Usage
 
@@ -30,6 +50,12 @@ You use coolours within the `print` function as shown below:
 To make the colours back to default after the coloured text add `default` to the end of the print function:
 
     print(colour('style', 'text-colour', 'background-colour') + 'your text' + default)
+
+> ## Updating
+
+To update use:
+
+    pip install --upgrade coolours
 
 # List of Colours
 

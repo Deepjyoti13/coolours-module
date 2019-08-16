@@ -11,7 +11,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='coolours',
     packages=['coolours'],
-    version='0.2',
+    version='0.3',
     license='MIT',
     description='A Python module to make text colouring easy.',
     long_description=long_description,
@@ -34,5 +34,6 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7'
     ],
 )
