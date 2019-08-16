@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: coolours
-Version: 0.3
+Version: 0.4
 Summary: A Python module to make text colouring easy.
 Home-page: https://alexhawking.now.sh/
 Author: Alex Hawking
@@ -38,11 +38,11 @@ Description: # **Coolours**
         
         Import coolours using:
         
-            from coolours.coolours import *
+            from coolours.colour import *
         
         You can import with
         
-            import coolours.coolours
+            import coolours.colour
         
         But that requires you to use `print(coolours.colour('style', 'textcolour', 'backgroundcolour'))`, so I think it is easier to use the first method.
         
