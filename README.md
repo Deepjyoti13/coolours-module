@@ -29,11 +29,11 @@ Probably easier to copy and paste that ^
 
 Import coolours using:
 
-    from coolours.coolours import *
+    from coolours.colour import *
 
 You can import with
 
-    import coolours.coolours
+    import coolours.colour
 
 But that requires you to use `print(coolours.colour('style', 'textcolour', 'backgroundcolour'))`, so I think it is easier to use the first method.
 
