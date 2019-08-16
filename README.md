@@ -1,34 +1,40 @@
-# **Coolors**
+# **Coolours**
 ### A Python Module To Make Text Colouring Easy
 #### _Made By Alex Hawking_
 
 # Installation
 
-Due to issues with SSL Certificates I have been unable to add this to pip. 
+You can install with `pip`:
+
+    pip install coolours
 
 You can install using `curl` by copy and pasting:
     
-    cd ~/Library/Python/3.7/lib/python/site-packages/ && { curl -O https://raw.githubusercontent.com/Handmade-Studios/coolors-module/master/coolors/coolors.py ; cd -; }
+    cd ~/Library/Python/3.7/lib/python/site-packages/ && { curl -O https://raw.githubusercontent.com/Handmade-Studios/coolours-module/master/coolours/coolours.py ; cd -; }
 
 # Usage
 
 > ## Importing
 
+>If you installed with pip:
+    
+    from coolours.coolours import (
+
 Import coolors using:
 
-    from coolors import *
+    from coolours import *
 
 You can import with
 
-    import coolors
+    import coolours
 
-But that requires you to use `print(coolors.color('style', 'textcolor', 'backgroundcolor'))`, so I think it is easier to use the first method.
+But that requires you to use `print(coolours.color('style', 'textcolor', 'backgroundcolor'))`, so I think it is easier to use the first method.
 
 > ## Colors
 
 You use coolors within the `print` function as shown below:
 
-    print(color('style', 'text-color', 'background-color') + 'your text')
+    print(colour('style', 'text-colour', 'background-colour') + 'your text')
 
 **Make sure you place the colors and styles within quotes**
 
@@ -36,7 +42,7 @@ You use coolors within the `print` function as shown below:
 
 To make the colors back to default after the coloured text add `default` to the end of the print function:
 
-    print(color('style', 'text-color', 'background-color') + 'your text' + default)
+    print(colour('style', 'text-colour', 'background-colour') + 'your text' + default)
 
 # List of Colors
 
@@ -49,7 +55,7 @@ To make the colors back to default after the coloured text add `default` to the 
 - underline (not supported in all temrinals)
 - blink (not supported in all terminals)
 
-> ## Text Colors
+> ## Text Colours
 
 - none
 - black
@@ -69,7 +75,7 @@ To make the colors back to default after the coloured text add `default` to the 
 - brightcyan
 - brightwhite
 
-> ## Background Colors
+> ## Background Colours
 
 - none
 - black
@@ -92,6 +98,6 @@ To make the colors back to default after the coloured text add `default` to the 
 
 # Future
 
-More colors and style coming soon. Will also add a way to align text.
+More colours and style coming soon. Will also add a way to align text.
 
 
