@@ -12,7 +12,7 @@ Install with:
 
 or
 
-    pip install coolours
+    pip3 install coolours
 
 > ## With wget
 
