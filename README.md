@@ -1,5 +1,5 @@
 # **Coolours**
-### A Python Module To Make Text Colouring Easy
+### A Python Module To Make Text Styling Easy
 #### _Made By Alex Hawking_
 
 # Installation
@@ -12,7 +12,7 @@ Install with:
 
 or
 
-    pip install coolours
+    pip3 install coolours
 
 > ## With wget
 
