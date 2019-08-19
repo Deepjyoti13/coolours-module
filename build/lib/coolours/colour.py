@@ -2,6 +2,18 @@
 
 # usage: print(colour(style, textground colour, background colour) + 'your text')
 
+import shutil
+
+width = shutil.get_terminal_size().columns
+
+
+def center(text):
+    return(' ' * int((width/2)-(len(text))/2) + text)
+
+
+def right(text):
+    return(' ' * int((width)-(len(text))) + text)
+
 
 def colour(style, text, bg):
 
@@ -14,8 +26,10 @@ def colour(style, text, bg):
         a = "\033[0;"
     if style == "bold":
         a = "\033[1;"
-    if style == "underline":
+    if style == "dim":
         a = "\033[2;"
+    if style == "underline":
+        a = "\033[4;"
     if style == "blink":
         a = "\033[5;"
 

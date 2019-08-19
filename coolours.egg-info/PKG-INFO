@@ -1,14 +1,16 @@
 Metadata-Version: 2.1
 Name: coolours
-Version: 0.4
-Summary: A Python module to make text colouring easy.
+Version: 0.5
+Summary: A Python module to make text styling easy.
 Home-page: https://alexhawking.now.sh/
 Author: Alex Hawking
 Author-email: alexrhawking@gmail.com
 License: MIT
 Download-URL: https://github.com/Handmade-Studios/coolors-module/archive/master.zip
-Description: # **Coolours**
-        ### A Python Module To Make Text Colouring Easy
+Description: ![coolours-logo](https://github.com/Handmade-Studios/coolours-module/blob/master/coolours_logo.png?raw=true)
+        
+        # **Coolours**
+        ### A Python Module To Make Text Styling Easy
         #### _Made By Alex Hawking_
         
         # Installation
@@ -21,7 +23,7 @@ Description: # **Coolours**
         
         or
         
-            pip install coolours
+            pip3 install coolours
         
         > ## With wget
         
@@ -54,6 +56,26 @@ Description: # **Coolours**
         
         **Make sure you place the colours and styles within quotes**
         
+        > ## Alignment
+        
+        - ## Center
+        
+        To center text use:
+        
+            print(center('yourtext'))
+        
+        - ## Right
+        
+        To align text to the right use:
+        
+            print(right('yourtext'))
+        
+        - ## With Colour
+        
+        To use alignment with colour:
+        
+            print(colour('style', 'textcolour', 'bgcolour') + center('yourtext'))
+        
         > ## Default
         
         To make the colours back to default after the coloured text add `default` to the end of the print function:
@@ -76,6 +98,8 @@ Description: # **Coolours**
         - bold
         - underline (not supported in all temrinals)
         - blink (not supported in all terminals)
+        
+        
         
         > ## Text Colours
         
@@ -120,11 +144,10 @@ Description: # **Coolours**
         
         # Future
         
-        More colours and styles coming soon. Will also add a way to align text.
+        More colours and styles coming soon. Will add some sort of fancy text.
         
         
-        
-Keywords: colour,easy,output,terminal,colouring,color,cool
+Keywords: colour,easy,output,terminal,colouring,color,cool,style,bold,underline
 Platform: UNKNOWN
 Classifier: Development Status :: 4 - Beta
 Classifier: Intended Audience :: Developers

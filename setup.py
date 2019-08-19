@@ -11,9 +11,9 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='coolours',
     packages=['coolours'],
-    version='0.4',
+    version='0.5',
     license='MIT',
-    description='A Python module to make text colouring easy.',
+    description='A Python module to make text styling easy.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Alex Hawking',
@@ -21,7 +21,7 @@ setup(
     url='https://alexhawking.now.sh/',
     download_url='https://github.com/Handmade-Studios/coolors-module/archive/master.zip',
     keywords=['colour', 'easy', 'output',
-              'terminal', 'colouring', 'color', 'cool'],
+              'terminal', 'colouring', 'color', 'cool', 'style', 'bold', 'underline'],
     install_requires=[
     ],
     classifiers=[

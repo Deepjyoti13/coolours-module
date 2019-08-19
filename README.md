@@ -47,6 +47,26 @@ You use coolours within the `print` function as shown below:
 
 **Make sure you place the colours and styles within quotes**
 
+> ## Alignment
+
+- ## Center
+
+To center text use:
+
+    print(center('yourtext'))
+
+- ## Right
+
+To align text to the right use:
+
+    print(right('yourtext'))
+
+- ## With Colour
+
+To use alignment with colour:
+
+    print(colour('style', 'textcolour', 'bgcolour') + center('yourtext'))
+
 > ## Default
 
 To make the colours back to default after the coloured text add `default` to the end of the print function:
@@ -69,6 +89,8 @@ To update use:
 - bold
 - underline (not supported in all temrinals)
 - blink (not supported in all terminals)
+
+
 
 > ## Text Colours
 
@@ -113,6 +135,5 @@ To update use:
 
 # Future
 
-More colours and styles coming soon. Will also add a way to align text.
-
+More colours and styles coming soon. Will add some sort of fancy text.
 
