@@ -79,9 +79,13 @@ To update use:
 
     pip install --upgrade coolours
 
+Or:
+
+    pip3 install --upgrade coolours
+
 # List of Colours
 
-### Coolors contains the following colours:
+### Coolours contains the following colours:
 
 > ## Styles
 
@@ -131,6 +135,11 @@ To update use:
 - brightpurple
 - brightcyan
 - brightwhite
+
+> ## Alignments
+
+- Right
+- Center
 
 
 # Future

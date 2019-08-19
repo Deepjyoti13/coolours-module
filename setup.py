@@ -11,15 +11,15 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='coolours',
     packages=['coolours'],
-    version='0.5',
+    version='0.6',
     license='MIT',
-    description='A Python module to make text styling easy.',
+    description='A Python module to make text styling easy. Works in all versions of Python, build with escape codes and spaces.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Alex Hawking',
     author_email='alexrhawking@gmail.com',
     url='https://alexhawking.now.sh/',
-    download_url='https://github.com/Handmade-Studios/coolors-module/archive/master.zip',
+    download_url='https://github.com/Handmade-Studios/coolours-module/archive/master.zip',
     keywords=['colour', 'easy', 'output',
               'terminal', 'colouring', 'color', 'cool', 'style', 'bold', 'underline'],
     install_requires=[

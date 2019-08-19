@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: coolours
-Version: 0.5
-Summary: A Python module to make text styling easy.
+Version: 0.6
+Summary: A Python module to make text styling easy. Works in all versions of Python, build with escape codes and spaces.
 Home-page: https://alexhawking.now.sh/
 Author: Alex Hawking
 Author-email: alexrhawking@gmail.com
 License: MIT
-Download-URL: https://github.com/Handmade-Studios/coolors-module/archive/master.zip
+Download-URL: https://github.com/Handmade-Studios/coolours-module/archive/master.zip
 Description: ![coolours-logo](https://github.com/Handmade-Studios/coolours-module/blob/master/coolours_logo.png?raw=true)
         
         # **Coolours**
@@ -88,9 +88,13 @@ Description: ![coolours-logo](https://github.com/Handmade-Studios/coolours-modul
         
             pip install --upgrade coolours
         
+        Or:
+        
+            pip3 install --upgrade coolours
+        
         # List of Colours
         
-        ### Coolors contains the following colours:
+        ### Coolours contains the following colours:
         
         > ## Styles
         
@@ -140,6 +144,11 @@ Description: ![coolours-logo](https://github.com/Handmade-Studios/coolours-modul
         - brightpurple
         - brightcyan
         - brightwhite
+        
+        > ## Alignments
+        
+        - Right
+        - Center
         
         
         # Future
