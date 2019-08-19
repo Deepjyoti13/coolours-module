@@ -1,3 +1,5 @@
+![coolours-logo](https://github.com/Handmade-Studios/coolours-module/blob/master/coolours_logo.png?raw=true)
+
 # **Coolours**
 ### A Python Module To Make Text Styling Easy
 #### _Made By Alex Hawking_
